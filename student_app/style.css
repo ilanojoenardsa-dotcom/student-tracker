@@ -1,0 +1,106 @@
+/* 🌟 General Reset */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 🌟 Container */
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 🌟 Headings */
+h2, h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* 🌟 Links / Buttons */
+a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #1d6fa5;
+}
+
+/* 🌟 Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 🌟 Forms */
+form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 80%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1d6fa5;
+}
+
+/* 🌟 Navigation Links */
+.nav {
+  margin-bottom: 15px;
+}
+
+.nav a {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #1d6fa5;
+}
